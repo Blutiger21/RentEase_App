@@ -1,0 +1,49 @@
+name: rentease
+description: "A multi-role property management app built with Flutter and Supabase."
+publish_to: 'none' # Prevent accidental publishing
+version: 1.0.0+1
+
+# Solves the SDK constraint error
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase Client
+  supabase_flutter: ^2.5.0
+
+  # State Management
+  provider: ^6.1.2
+
+  # Utilities
+  image_picker: ^1.1.2 # For uploading images
+  intl: ^0.20.2 # For date formatting
+  uuid: ^4.4.0 # For generating unique IDs
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # --- Icon Generator Package ---
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter:
+  uses-material-design: true
+
+#
+# --- Icon Generator Configuration ---
+# (Make sure this is at the bottom)
+#
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/ICON2.png"
+  min_sdk_android: 21
