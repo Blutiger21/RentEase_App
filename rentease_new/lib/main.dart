@@ -19,8 +19,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
   // Define your keys here
-  const String supabaseUrl = 'https://dabrjaedoqtqianadtfn.supabase.co'; // !! PASTE YOUR URL HERE !!
-  const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRhYnJqYWVkb3F0cWlhbmFkdGZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3OTQzNjgsImV4cCI6MjA3ODM3MDM2OH0._ViE4gBaq85pFDlZFqsGAzHh-D-O4i29YRzekFmoZd8'; // !! PASTE YOUR KEY HERE !!
+  const String supabaseUrl = ''; // !! PASTE YOUR URL HERE !!
+  const String supabaseAnonKey = ''; // !! PASTE YOUR KEY HERE !!
 
   await Supabase.initialize(
     url: Uri.parse(supabaseUrl).toString(),
