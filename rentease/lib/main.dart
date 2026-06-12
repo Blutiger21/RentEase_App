@@ -19,8 +19,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-     url: 'https://dabrjaedoqtqianadtfn.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRhYnJqYWVkb3F0cWlhbmFkdGZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3OTQzNjgsImV4cCI6MjA3ODM3MDM2OH0._ViE4gBaq85pFDlZFqsGAzHh-D-O4i29YRzekFmoZd8',
+     url: '',
+    anonKey: '',
 
   );
   runApp(const RentEaseApp());
